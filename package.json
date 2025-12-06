@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luan2311/Nodejs_blog.git"
+    "url": "git+https://github.com/luan2311/AoHoaDienToanDamMay.git"
   },
   "keywords": [
     "nodejs_blog",
@@ -20,9 +20,9 @@
   "author": "Luanpham",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luan2311/Nodejs_blog/issues"
+    "url": "https://github.com/luan2311/AoHoaDienToanDamMay/issues"
   },
-  "homepage": "https://github.com/luan2311/Nodejs_blog#readme",
+  "homepage": "https://github.com/luan2311/AoHoaDienToanDamMay#readme",
   "dependencies": {
     "express": "^5.1.0",
     "express-handlebars": "^8.0.3",
