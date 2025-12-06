@@ -1,0 +1,34 @@
+{
+  "name": "Node.js DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [
+    3000,
+    3001,
+    5173,
+    8080
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Web server",
+      "onAutoForward": "openPreview"
+    },
+    "5173": {
+      "label": "Vite/React/Modern",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "updateContentCommand": ""
+}
